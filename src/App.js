@@ -161,7 +161,7 @@ function App() {
                   {Math.floor(task.timeSpent / 60)}m {task.timeSpent % 60}s
                 </div>
               ))}
-              <div style={{ marginTop: 'auto', fontWeight: 'bold', marginTop: '10px' }}>
+              <div style={{ fontWeight: 'bold' }}>
                 Total: {Math.floor(total / 60)}m {total % 60}s
               </div>
             </div>
